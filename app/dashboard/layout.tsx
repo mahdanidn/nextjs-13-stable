@@ -1,9 +1,9 @@
 import React from "react";
 
-const Layout = ({ children }: React.PropsWithChildren) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      <h1>ROOT LAYOUT MARKETING</h1>
+      <h1>Dashboard Layout</h1>
       {children}
     </div>
   );
